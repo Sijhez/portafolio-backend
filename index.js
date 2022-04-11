@@ -32,9 +32,7 @@ connectDB()
 //ruters
  app.use("/", require('./routes/user'))
  app.use("/myUser", require('./routes/myProfile'))
-// app.use("/myWorks", require('./routes/myWorks'))
-// app.use("/", require('./routes/index'))
-
+ app.use("/myUser", require('./routes/myWorks'))
 
 app.listen(process.env.PORT,()=>{
     console.log(`Servidor conectado en http://localhost:${process.env.PORT}`)

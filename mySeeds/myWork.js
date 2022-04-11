@@ -12,6 +12,12 @@ const work = [{
     descripcion:'una app para hacer senderismo amateur',
     tecnologias:['mongoDB','handlebars','expressjs', 'javascript'],
     imagen1:'https://i.postimg.cc/B6d9jGkR/index.jpg',
+},
+{
+    titulo:'MediaArt',
+    descripcion:'Red social para vender y promover arte emergente',
+    tecnologias:['mongoDB','reactjs','expressjs', 'javascript','node','html','css'],
+    imagen1:'https://i.postimg.cc/B6d9jGkR/index.jpg',
 }]
 
 const createWork = async()=>{
