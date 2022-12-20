@@ -2,7 +2,7 @@ const mongoose =  require('mongoose')
 
 const Work = require('../models/Work')
 
-mongoose.connect('mongodb://localhost:27017/portfolio',{
+mongoose.connect('mongodb://localhost:27017/myPortfolio',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })

@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 //import model
 const Profile = require('./../models/Profile')
 //data base connection to seeding my information on the first profile:
-mongoose.connect('mongodb://localhost:27017/portfolio',{
+mongoose.connect('mongodb://localhost:27017/myPortfolio',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
@@ -11,7 +11,7 @@ mongoose.connect('mongodb://localhost:27017/portfolio',{
 // information to fill up profile model:
 
 const sinuhe = [{
-    nombre:"Sinuhé Jardínez Hernández",
+    nombre:"Sinuhé Jardínez",
     edad:29,
     educacion1:"Universidad Autónoma Metropolitana UAM - Azcapotzalco",
     foto:" https://i.ibb.co/Qc1px4c/Mifoto-100.jpg",
